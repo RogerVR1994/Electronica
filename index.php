@@ -20,7 +20,7 @@
 			<div class="col-md-6">
 				<h3>Tu pulso es:
 					<?php 
-						foreach ($result as $pulso) {
+						foreach ($query as $pulso) {
 							echo $result;
 						}
 					 ?>
