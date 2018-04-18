@@ -20,7 +20,7 @@
 			<div class="col-md-6">
 				<h3>Tu pulso es:
 					<?php 
-						while($row = $queryResult->fetch(PDO::FETCH_ASSOC)){
+						while($row = $query->fetch(PDO::FETCH_ASSOC)){
 							echo $row['pulso'];
 						}
 					 ?>
