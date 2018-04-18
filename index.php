@@ -14,7 +14,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
-				<h3>Tu pulso es: <?php echo '$pulso'; ?></h3>
+				<h3>Tu pulso es: <?php echo $pulso; ?></h3>
 			</div>	
 		</div>
 	</div>
