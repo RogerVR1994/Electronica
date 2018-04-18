@@ -8,7 +8,7 @@
 
 <body>
 	<?php 
-		$sql = "SELECT pulso from pulso ORDER BY DESC LIMIT 1";
+		$sql = "SELECT pulso from pulso order by id limit 1";
 		$query = $pdo->query($sql);
 		 ?>
 	<div class="jumbotron text-center">
