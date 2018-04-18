@@ -1,5 +1,6 @@
 <?php 
 	if(!empty($_POST)){
+		require_once 'config.php';
 		$name = $_POST["pulso"];
 		
 		$sql = "INSERT INTO pulso(pulso) VALUES (:pulso)";
