@@ -6,7 +6,7 @@
 		$sql = "INSERT INTO pulso(pulso) VALUES (:pulso)";
 		$query = $pdo->prepare($sql);
 		$result = $query->execute([
-			'pulso'=>$pulso;
+			'pulso'=>$pulso
 		]);
 		var_dump($result);
 	}
