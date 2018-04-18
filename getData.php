@@ -8,7 +8,7 @@
 		$result = $query->execute([
 			'pulso'=>$pulso
 		]);
-		var_dump($result);
+		echo ('hola');
 	}
 
  ?>
