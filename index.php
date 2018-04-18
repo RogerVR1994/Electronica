@@ -7,6 +7,10 @@
 </head>
 
 <body>
+	<?php 
+		$sql = "SELECT pulso from pulso ORDER BY DESC LIMIT 1";
+		$query = $pdo->query($sql);
+		 ?>
 	<div class="jumbotron text-center">
 		<h1>Proyecto Electrónica Chido 2018</h1>
 	</div>
@@ -14,7 +18,14 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
-				<h3>Tu pulso es: <?php echo $pulso; ?></h3>
+				<h3>Tu pulso es:
+					<?php 
+						foreach ($result as $pulso) {
+							echo $result;
+						}
+					 ?>
+
+				</h3>
 			</div>	
 		</div>
 	</div>
