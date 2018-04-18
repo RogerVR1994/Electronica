@@ -21,7 +21,7 @@
 				<h3>Tu pulso es:
 					<?php 
 						while($row = $queryResult->fetch(PDO::FETCH_ASSOC)){
-							echo $row;
+							echo $row['pulso'];
 						}
 					 ?>
 
